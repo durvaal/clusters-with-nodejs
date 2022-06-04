@@ -109,6 +109,7 @@ Esses artigos me inspiraram :] recomendo a leitura:
 
 - [Artigo appsignal](https://blog.appsignal.com/2021/02/03/improving-node-application-performance-with-clustering.html)
 - [Artigo wanago](https://wanago.io/2019/04/29/node-js-typescript-power-of-many-processes-cluster/)
+- [Artigo dev.to](https://dev.to/karanpratapsingh/optimize-node-js-performance-with-clustering-kdg)
 
 ## License
 
