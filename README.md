@@ -1,6 +1,6 @@
 # Clusters com Node.js
 
-Ressultado de um estudo comparando o cluster Node.js para distribuir cargas de trabalho entre seus processos de aplicativos.
+Resultado de um estudo comparando o cluster Node.js para distribuir cargas de trabalho entre seus processos de aplicativos.
 
 Uma instância do Node.js é executada em um único thread, o que significa que em um sistema multi-core (que a maioria dos computadores são atualmente), nem todos os núcleos serão utilizados pelo aplicativo. Para aproveitar os outros núcleos disponíveis, você pode iniciar um cluster de processos Node.js e distribuir a carga entre eles.
 
