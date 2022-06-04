@@ -111,6 +111,8 @@ Esses artigos me inspiraram :] recomendo a leitura:
 - [Artigo wanago](https://wanago.io/2019/04/29/node-js-typescript-power-of-many-processes-cluster/)
 - [Artigo dev.to](https://dev.to/karanpratapsingh/optimize-node-js-performance-with-clustering-kdg)
 
+> Qualquer semelhança não é mera coincidência, usei alguns pontos desse artigo para explicar a motivação do estudo nesse README, me ajudou a fixar o propósito da implementação.
+
 ## License
 
 [MIT licensed](LICENSE).
