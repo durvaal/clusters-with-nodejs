@@ -1,0 +1,23 @@
+{
+  "name": "clusters",
+  "version": "1.0.0",
+  "description": "Comparing Node.js clustering to distribute workloads among their application process.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-single": "npx ts-node src/single-process.ts",
+    "start-multi": "npx ts-node src/multi-process.ts"
+  },
+  "author": "Paulo Lima",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "loadtest": "^5.2.0",
+    "pm2": "^5.2.0",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.39"
+  }
+}
