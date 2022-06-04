@@ -4,8 +4,8 @@ import express, { Request, Response } from 'express';
  * Mimics some intense server-side work
  */
 function intenseWork(req: Request): number {
-  let n = parseInt(req.params.n);
-  let count = 0;
+  let n: number = parseInt(req.params.n);
+  let count: number = 0;
 
   if (n > 5000000000) n = 5000000000;
 
@@ -18,16 +18,16 @@ function intenseWork(req: Request): number {
 
 function start(): void {
   const app = express();
-  const port = 3001;
-  const baseAPI = '/api/v1';
+  const port: number = 3001;
+  const baseAPI: string = '/api/v1';
 
-  app.get("/", (req, res) => {
+  app.get("/", (_, res: Response) => {
     res.send("Hello World!");
   });
   
   app.get(`${baseAPI}/intense/:n`, (req: Request, res: Response) => {
     console.time('intense');
-    const count = intenseWork(req);
+    const count: number = intenseWork(req);
     console.timeEnd('intense');
     res.send(`Final count is ${count}`);
   });
