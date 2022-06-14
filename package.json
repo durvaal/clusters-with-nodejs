@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-single": "npx ts-node src/single-process.ts",
-    "start-multi": "npx ts-node src/multi-process.ts"
+    "start-multi": "npx ts-node src/multi-process.ts",
+    "start-thread": "npx ts-node src/multi-thread.ts"
   },
   "author": "Paulo Lima",
   "license": "MIT",
